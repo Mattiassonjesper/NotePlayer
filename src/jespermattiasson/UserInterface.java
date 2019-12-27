@@ -66,8 +66,6 @@ public class MidiSynthesizer {
 	// Enclose a block of code that can generate errors, create catches.
 	try 
 	{
-		//Kolla mer på synthesizer så ljudet inte. Ljudhanteringen, öppna och stänga ljudfilen. 
-		//När man spammar knappen ska ljudet inte vara kvarliggande i flera sekunder efter
 		// Create synthesizer to generate tone.
 		Synthesizer synthesizer = MidiSystem.getSynthesizer();
 		// Open the synthesizer so it can acquire any resources it needs.
