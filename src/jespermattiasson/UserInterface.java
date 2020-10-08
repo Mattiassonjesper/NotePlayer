@@ -35,8 +35,8 @@ public UserInterface(){
 	getContentPane().add(pnlSouth, BorderLayout.SOUTH); 
 		
 	// Add action listeners.
-	firstButton.addActionListener(new Sound1());
-	secondButton.addActionListener(new Sound2());
+	firstButton.addActionListener(new Sound());
+	secondButton.addActionListener(new Sound());
 		
 }
 	
